@@ -17,4 +17,6 @@ spec:
       containers:
       - name: test
         image: quay.io/dkarpele/my-guestbook:1.0.0
+        ports:
+        - containerPort: 80
 
